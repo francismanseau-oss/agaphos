@@ -123,7 +123,7 @@ function layout({ title, description, depth = 0, body, active }) {
     <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
     <nav id="menu" class="nav" aria-label="Principale">
       <a href="${prefix}index.html"${active === "accueil" ? ' aria-current="page"' : ""}>Accueil</a>
-      <a href="${prefix}unir/index.html"${active === "unir" ? ' aria-current="page"' : ""}>Unir</a>
+      <a href="https://francismanseau-oss.github.io/temple-de-dieu/" rel="noopener">Unir</a>
       <a href="${prefix}eclairer/index.html"${active === "eclairer" ? ' aria-current="page"' : ""}>Éclairer</a>
       <a href="${prefix}agir/index.html"${active === "agir" ? ' aria-current="page"' : ""}>Agir</a>
       <a href="${prefix}charte/index.html"${active === "charte" ? ' aria-current="page"' : ""}>12 Lumières</a>
